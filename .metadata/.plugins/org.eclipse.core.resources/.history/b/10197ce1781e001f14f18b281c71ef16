@@ -1,0 +1,36 @@
+package org.olahammed;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.olahammed.entity.User;
+
+public class App {
+
+	public static void main(String[] args) {
+		SessionFactory factory = new Configuration()
+								.configure("hibernate.cfg.xml")
+								.addAnnotatedClass(User.class)
+								.buildSessionFactory();
+		
+		Session session = factory.getCurrentSession();
+		
+		try {
+//			Create object of entity class type
+			User user = new User("username", "first_name", "last_name", "password");
+			
+//			Start txn.
+			session.beginTransaction();
+//			Perform operation
+			
+			session.save(user);
+//			Commit the txn.
+			session.getTransaction().commit();
+			System.out.println("Row added!");
+		} finally {
+			session.close();
+			factory.close();
+		}
+	}
+
+}

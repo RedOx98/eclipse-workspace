@@ -1,0 +1,35 @@
+<%@ page import="org.olahammed.entity.User" %>
+<%@ page import="java.util.List" %>
+<jsp:include page="include/header.jsp" />
+
+<h1>List of Users</h1>
+<table border="1" style="width: 500px; height: auto;">
+    <thead>
+        <tr>
+            <th>User Id</th>
+            <th>Username</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <%
+        List<User> listusers = (List<User>) request.getAttribute("listusers");
+        if (listusers != null) {
+            for (User user : listusers) {
+                out.print("<tr>");
+                out.print("<td>" + user.getUser_id() + "</td>");
+                out.print("<td>" + user.getUsername() + "</td>");
+                out.print("<td>" + user.getEmail() + "</td>");
+                out.print("</tr>");
+                System.out.println(user.getUser_id());
+                System.out.println(user.getUsername());
+                System.out.println(user.getEmail());
+            }
+        } else {
+            out.print("<tr><td colspan='3'>No users found</td></tr>");
+        }
+        %>
+    </tbody>
+</table>
+
+<jsp:include page="include/footer.jsp" />

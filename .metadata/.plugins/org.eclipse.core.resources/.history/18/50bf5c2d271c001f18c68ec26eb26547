@@ -1,0 +1,5 @@
+package org.olahammed.model;
+
+public class UsersModel {
+
+}

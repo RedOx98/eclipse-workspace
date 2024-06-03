@@ -1,0 +1,5 @@
+package org.olahammed.entity;
+
+public class Users {
+
+}

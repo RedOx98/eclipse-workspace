@@ -1,0 +1,5 @@
+package org.olahammed.config;
+
+public class DatabaseConfig {
+
+}

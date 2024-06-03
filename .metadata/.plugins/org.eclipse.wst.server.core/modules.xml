@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:Annotations" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:ForwardandRedirect" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Hello Servlets" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:JavaBeans" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:Sessions2" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HelloServlets" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:SessionsContinued" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Sessions2" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:FormsUnderJSP" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Hello Servlet" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:testproject" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HelloJSP" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:ImportClassIntoJspFile" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:Sessions" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:SessionsContinued" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:HibernateSetup" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:JSPScriptingElement" serverId="apache-tomcat-10.0.27 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:IncludeFiles" serverId="apache-tomcat-10.0.27 at localhost"/>
+</modules>

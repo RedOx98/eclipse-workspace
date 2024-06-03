@@ -1,0 +1,5 @@
+package org.olahammed.beans;
+
+public class User {
+
+}

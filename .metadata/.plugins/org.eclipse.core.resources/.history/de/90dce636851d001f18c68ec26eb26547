@@ -1,0 +1,12 @@
+
+
+<jsp:include page="include/header.jsp"/>
+
+<h1>Add User</h1>
+
+<form action="${pageContext.request.contextPath} }/home" method="post">
+</form>
+
+
+
+<jsp:include page="include/footer.jsp"/>
